@@ -14,6 +14,7 @@
 		FA6E0F671D5755EA00E66C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6E0F651D5755EA00E66C54 /* LaunchScreen.storyboard */; };
 		FA6E0F721D5755EA00E66C54 /* ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E0F711D5755EA00E66C54 /* ImageTests.swift */; };
 		FA6E0F7D1D5755EA00E66C54 /* ImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E0F7C1D5755EA00E66C54 /* ImageUITests.swift */; };
+		FA6E0F8D1D5757E700E66C54 /* SecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E0F8C1D5757E700E66C54 /* SecView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA6E0F781D5755EA00E66C54 /* ImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6E0F7C1D5755EA00E66C54 /* ImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUITests.swift; sourceTree = "<group>"; };
 		FA6E0F7E1D5755EA00E66C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6E0F8C1D5757E700E66C54 /* SecView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FA6E0F5C1D5755EA00E66C54 /* AppDelegate.swift */,
 				FA6E0F5E1D5755EA00E66C54 /* ViewController.swift */,
+				FA6E0F8C1D5757E700E66C54 /* SecView.swift */,
 				FA6E0F601D5755EA00E66C54 /* Main.storyboard */,
 				FA6E0F631D5755EA00E66C54 /* Assets.xcassets */,
 				FA6E0F651D5755EA00E66C54 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6E0F8D1D5757E700E66C54 /* SecView.swift in Sources */,
 				FA6E0F5F1D5755EA00E66C54 /* ViewController.swift in Sources */,
 				FA6E0F5D1D5755EA00E66C54 /* AppDelegate.swift in Sources */,
 			);
